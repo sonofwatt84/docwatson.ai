@@ -1,0 +1,1 @@
+This is a basic leave-one-group-out cross-validation script.  It was developed for weather-related outage prediction, which benefits specifically from this type of cross-validation because it allows us to isolate and validate the outage predictions for each storm. 
