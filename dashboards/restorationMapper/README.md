@@ -1,0 +1,1 @@
+This is a dashboard for visually predicted damages, and presents an interface for estimating restoration times based on various allocations of service crews, and the amount of work associated with weather-related damages.
