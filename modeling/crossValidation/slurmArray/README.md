@@ -1,0 +1,1 @@
+This is a cross-validatation script that's designed to take advantage of SLURM arrays on an HPC.  By dispatching jobs via SLURM, and using local parallelization via the OS and model libraries on each node, this method is capable of fast and efficient validation.
