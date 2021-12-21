@@ -1,0 +1,1 @@
+This script converts GRIB files into more standard raster formats, like GeoTiff.  Sometime GRIB files are packaged in an inconsistent manner, so it reads the metadata, identifies the layers of interest, and exports them as a more useful file format.
