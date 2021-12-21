@@ -1,0 +1,1 @@
+This is an example of a high-res map being generated in R.  In general, it's easier to code high-res maps if you know how because the number of verticies in detailed polygons can make rendering very slow.
