@@ -6,3 +6,5 @@ This is collection of code samples by me, Peter Watson.  A quick summary:
   - ML model crossvalidation  
   - Model tuning with MPI
   - Model ouput dashboards and visualizations
+
+All scripts come with example data.  Though some scripts may depend on data that can be downloaded with some of the included utilities.   
