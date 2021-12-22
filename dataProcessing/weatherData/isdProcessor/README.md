@@ -1,4 +1,6 @@
-This script processes the ISD data into a more usable form.  Specifically it processes the FM-15 and FM-16 reports so that the data is ready for analysis.  
+This script processes the ISD data into a more usable form.  Specifically it processes the FM-15 and FM-16 reports so that the data is ready for analysis by producing CSVs of mean weather observations aggregated to each hour.  
 
-A description of the raw ISD data can be found here:
-<PDF URL>
+A 126 page description of the raw ISD data can be found here:
+https://www.ncei.noaa.gov/data/global-hourly/doc/isd-format-document.pdf
+
+Requires the ISD data to be local to work.  Check out isdDataDownloader.R for help with that.
