@@ -5,6 +5,6 @@ This script processes the ISD data into a more usable form.  Specifically it pro
 A 126 page description of the raw ISD data can be found here:
 https://www.ncei.noaa.gov/data/global-hourly/doc/isd-format-document.pdf
 
-Requires the ISD data to be local to work.  Check out isdDataDownloader.R for help with that.
+Requires the ISD data to be local to work.  Check out `isdDataDownloader.R` for help with that.
 
 ![windTimeseries](http://docwatson.ai/wp-content/uploads/2021/12/timeseriesExample.png)
