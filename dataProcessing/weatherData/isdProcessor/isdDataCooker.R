@@ -25,6 +25,7 @@ library('circular')
 wthrDir  <- "../isdDownloader/output/wthr"
 # Output Directory
 outDir   <- "./output"
+if (!(dir.exists(outDir))){dir.create(outDir)}
 theYears <- dir(wthrDir)
 # Make sure they're directories
 theYears <- theYears[dir.exists(file.path(wthrDir,theYears))]
