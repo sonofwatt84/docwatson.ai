@@ -1,3 +1,5 @@
+# Weather Station Data Processor
+
 This script processes the ISD data into a more usable form.  Specifically it processes the FM-15 and FM-16 reports so that the data is ready for analysis by producing CSVs of mean weather observations aggregated to each hour and a geojson of station locations.  
 
 A 126 page description of the raw ISD data can be found here:
