@@ -1,4 +1,6 @@
-This script downloads RTMA data from various sources.
+# RTMA Downloaders
+
+These scripts download RTMA data from various sources.
 
 ![rtmaExample](http://docwatson.ai/wp-content/uploads/2021/12/rtmaExample.png)
 
