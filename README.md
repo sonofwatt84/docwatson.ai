@@ -1,5 +1,5 @@
 
-![myLogo](https://docwatson.ai/wp-content/uploads/2021/12/websiteLogoV2-github.png)
+![myLogo](https://docwatson.ai/wp-content/uploads/2021/12/websiteLogoV2-github-small.png)
 
 This is collection of code samples by me, Peter Watson.  A quick summary:
 - It's mostly in R with some Python
