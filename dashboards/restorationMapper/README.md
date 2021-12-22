@@ -1,1 +1,5 @@
-This is a dashboard for visually predicted damages, and presents an interface for estimating restoration times based on various allocations of service crews, and the amount of work associated with weather-related damages.
+This is a dashboard for visualizing predicted damages from an impact model, and provides an interface for estimating restoration times based on various allocations of service crews, and the estimated amount of work associated with weather-related damages.
+
+See it live here: https://sonofwatt.shinyapps.io/darmInAthens/
+
+![darmScreenshot](https://docwatson.ai/wp-content/uploads/2021/12/darmImage.png)
