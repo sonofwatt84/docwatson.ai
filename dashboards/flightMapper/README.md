@@ -1,4 +1,4 @@
-This is a dashboard for visualizing weather-related actual or prediction flight delays.
+This is a dashboard for visualizing weather-related actual or prediction flight delays. Haven't gotten around to building the backend, but it's feasible.
 
 Check out a live version here: https://sonofwatt.shinyapps.io/flightDelays/
 
