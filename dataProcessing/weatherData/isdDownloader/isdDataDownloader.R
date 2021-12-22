@@ -23,6 +23,7 @@ theYears <- c(2019:2020)
 domainFile <- 'data/ctTowns.shp'
 # Output Directory
 outDir <- "output/wthr"
+if (!(dir.exists(outDir))){dir.create(outDir)}
 
 # Load Domain #
 domainArea <- readOGR(domainFile, verbose=F)
@@ -97,3 +98,5 @@ file.remove(badFiles)
 
 ## Remove Station Metadata Files ##
 file.remove(c(stationHistPath,stationInvnPath))
+
+print(' - - All Done! - - ')
