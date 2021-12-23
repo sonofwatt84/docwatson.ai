@@ -2,7 +2,7 @@
 
 These scripts download RTMA data from various sources.
 
-![rtmaExample](http://docwatson.ai/wp-content/uploads/2021/12/rtmaExample.png)
+![rtmaExample](http://docwatson.ai/wp-content/uploads/2021/12/rtmaExample.jpg)
 
 `ndgdDownloader.py` downloads from the NCEI National Digital Guidance Database.  But recently the quality and organization of this archive has suffered such that this script is best at retrieving data from 2011 to 2019.  RTMA data is also hosted by several cloud services, so there are better alternatives for more recent data.
 
