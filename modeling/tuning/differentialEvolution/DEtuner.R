@@ -5,8 +5,8 @@ allData <- read.csv("../../exampleData/exampleData.csv")
 # Specify Label
 theDate <- Sys.Date()
 theLabel<-paste0("DEsearch_",theDate)
-theStorms <- levels(allData$eventCode)
-eventCount <- length(theStorms)
+theGroups <- levels(allData$GRP)
+eventCount <- length(theGroups)
 
 nSlice <- 4
 theSlices <- 1:nSlice
@@ -18,6 +18,7 @@ library(snow)
 library(parallel)
 library(DEoptim)
 library(Metrics)
+library(stringr)
 
 nNodes<-as.numeric(Sys.getenv()["SLURM_NTASKS"])
 nNodes<-nNodes - 1
@@ -28,10 +29,9 @@ cl <- makeMPIcluster(nNodes)
 clusterEvalQ(cl, library(gbm))
 clusterEvalQ(cl, library(Metrics))
 
-predVars <- c('X01','X02','X03','X04','X05','X06','X07','X08','X09','X10','X11','X12')
+predVars <- paste0('X',str_pad(1:60,2,pad='0'))
 
 targetVar <- 'Y'
-
 
 # Clean & Normalize
 allData <- allData[complete.cases(allData[predVars]),]
