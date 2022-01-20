@@ -1,1 +1,3 @@
-This is like the basic leave-one-group-out cross-validation, but it also generates variable importance metrics for each model trained.
+This is like the basic leave-one-group-out (LOGO) cross-validation, but it also generates quick/dirty relative variable importance metrics for each model trained.
+
+This version of the script also introduces random noise variables, which can be used to measure the relative importance of the predictor variables.  This is useful for variable selection.  A method like Boruta variable selection is similar, but more rigorous and more powerful.  This less powerful approach has some advantages because it usually encourages a more aggressive downselection criteria and is better at remove more variables (which is desirable sometimes)
