@@ -43,7 +43,7 @@ gridLayer = gridData.GetLayer()
 # Setup Line Transform
 sourceCRS = gridLayer.GetSpatialRef()
 targetCRS = osr.SpatialReference()
-targetCRS.ImportFromEPSG(26918) # Optimized for CT
+targetCRS.ImportFromEPSG(26956) # Optimized for CT
 CRStrans = osr.CoordinateTransformation(sourceCRS, targetCRS)
     
 ######################################
